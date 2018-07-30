@@ -1,0 +1,142 @@
+
+body {
+    width: 100%;
+    height: 760px;
+   /* background-image: url('Res-01 - Home/images/slider_image_home@1x.png');*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px ;
+  }
+  .i{
+    padding-top: 1rem;
+    padding-bottom: calc(20rem - 56px);
+    background-image: url('Res-01 - Home/images/slider_image_home@1x.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  /*.mt-5{
+    text-align: center;
+    padding: 260px;
+    }*/
+    .fro{
+        font-family: Arial;
+        font-style: oblique;
+        position:relative;
+        margin-top:350px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size:12px !important ;
+    }
+    
+    .men 
+    { 
+         position:absolute; 
+         left: 20%;  
+         top:50%; 
+         padding:80px
+    } 
+    .imm{
+     width:18px;
+     height:27px;
+     margin-bottom:100px;
+     margin-top:20px;
+
+    }
+    .pos{
+        
+        background-color:rgba(255,255,255,.5);
+        border: none;
+        color: #f8f9fa;
+        padding: 6px 27px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 26px 8px;
+        cursor: pointer;
+
+    }
+   
+     
+  
+ /* @media (min-width: 992px) {
+    body {
+      background-image: url('Res-01 - Home/images/slider_image_home@1x.png');
+      background-repeat: no-repeat;
+  
+  
+    }
+  }*/
+  /*header.masthead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+  /*
+  header.masthead .page-heading .subheading, header.masthead .site-heading .subheading {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin: 10px 0 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+*/
+
+.navbar {
+  /* Couleur de fond de la barre de navigation */
+  background-color:grey;
+  
+ }
+ .ft{
+
+  background-color:grey;
+ }
+ 
+ /*@include media-breakpoint-down(xs) {
+  .container {
+      margin-left: 0;
+      margin-right: 0;
+  }
+ }*/
+
+ .taille{
+margin-top:-56px;
+height:5px;
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Meie+Script|Shadows+Into+Light|Arvo|Monda');
+ 
+ .masthead {
+   font-family:'Shadows Into Light', cursive;
+   font-size:20px !important;
+  position: relative;
+  width: 100%;
+  color:white;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background:url('Res-01 - Home/images/slider_image_home@1x.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+
+  
+ }
+ 
+ .widthboutton{
+  height:40px;
+  width:200px;
+  border: 1px white solid;
+ }
+ .imagemargin{
+
+  margin-top:60px;
+ }

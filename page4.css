@@ -1,0 +1,98 @@
+.tle{
+
+ 
+    font-family: 'Monda', sans-serif;
+    font-style: oblique;
+    position:relative;
+    color:red;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 33px;
+    text-align: center;
+    font-size:25px !important ;
+
+    
+}
+
+.soul {
+    height: 3px; 
+    color: rgb(224, 35, 35);
+    margin-top:-8px;
+    background-color: rgb(243, 50, 16); 
+    width: 12%; 
+    border: blue;
+    /*text-align: center;*/
+    
+}
+
+.couleurfond{
+
+background-color:rgb(223, 217, 217);
+
+}
+
+
+.test{
+    margin-top:50px;
+    color: rgb(133, 129, 129);
+    text-align: center !important;
+
+}
+.posi{
+
+text-align: center;
+
+}
+
+.t1{
+
+    margin-top:20px;
+    position: center ;
+    width:150px;
+  
+    
+}
+.imag1{
+       text-align: center;
+        height: 40px;
+        margin-right:120px;
+        margin-left: 50px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Meie+Script|Shadows+Into+Light|Arvo|Monda');
+    
+.par{
+   
+    margin-top:60px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:500;
+    line-height: 1;
+    color: #969696;
+    font-size: 10px;
+  
+   /* padding-block-end: px;*/
+}
+.i2{
+
+        margin-top:30px;
+    }
+.i1{
+
+        margin-top:30px;
+
+}
+.t{
+    position: absolute;
+    top: 90%;
+    left:51%;
+    transform: translate(-54%,-48%);
+  /*  justify-content: center;*/
+   
+    
+}
+.ut{
+padding-top: 20px;
+
+
+}

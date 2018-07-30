@@ -1,0 +1,42 @@
+/*body{
+background-image:url('Res-01 - Home/images/news_letter_background_image_home@1x.png');
+background-repeat:no-repeat;
+background-size:cover;
+border: 1px ;
+}*/
+.o{
+    padding-top: 1rem;
+  
+    background-image:url('Res-01 - Home/images/news_letter_background_image_home@1x.png');
+    
+  width:100%;
+    background-position:center;
+    background-repeat: no-repeat;
+   
+}
+.styletitre1 {
+    
+    margin-top:60px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:500;
+    line-height: 1;
+    font-size: 15px;
+    margin-left:30px;
+}
+.styletitre2{
+
+    margin-top:10px;
+    font-family: 'Shadows Into Light', cursive;
+ 
+    line-height: 1;
+    font-size: 10px;
+    margin-left:50px;
+
+}
+
+.zonemail{
+
+margin-top:40px;
+
+}
+
