@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Do+Hyeon|Marvel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Marvel" rel="stylesheet">
+    <link href="pagejquery.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script jquery-3.3.1.min.js></script>
+</head>
+
+
+<script>  $(document).ready(function () {
+
+
+        $.getJSON('https://cors.io?https://api.myglamapp.pl/api/categories?language=EN', function (data) {
+
+
+
+
+            /*for (var i = 0; i < data_length; i++) {
+                var data_length = data.length;
+                data.data.forEach(d => {
+                    $('#div1').append(d[i]["label"] + '<br>');
+              
+            });
+            }*/
+
+
+
+            data.data.forEach(d => {
+
+
+                $('#div1').append("<div class='row my-4'>" + "<div class='col-lg-8'>" + "<img src='" + " http://" + d.imagePath + "'/>" + "</div>" + "<div class='col-lg-4'>" + '<h1>' + d.label + '</h1>' + '<p>' + d.description + '</p>' + "</div>");
+                // $('#div1').append( "<div class='row my-4'>" + "<div class='col-lg-4'>" + '<h1>' + d.label + '</h1>' + '<p>' + d.description + '</p>' + "</div>" + "</div>");
+                //$('#div1').append("<div class='row' id='r1'>")
+                $(d.Services).each(function (index, s) {
+
+                    $('#div1').append("<div class='col-md-4 blo'>" + "<div class='card h-100'>" + "<div class='card-body'>" + "<h2 class='card-title'>" + s.label_service+"</h2>" + "<p class='card-text text1'>" +s.description_service+ "</p>" + "</div>"+ "</div>"+ "</div>");
+                    // $('#div1').append("<div class='row'>" + "<div class='col-md-4 mb-4'>" + "<div class='card h-100'>" + "<div class='card-body'>" + "<h2 class='card-title'>"+"</h2>" + "<p class='card-text'>"+"</p>"+ s.description_service + "</div>");
+
+
+                    // $('#div2').append("<div class='col-md-2'>" + s.description_service + '<br>');
+
+                });
+                $('#div1').append("</div>")
+            });
+
+
+        });
+
+    });
+
+
+
+
+</script>
+<body>
+
+<div class="container" id="div1">
+
+        <div class="row" id="div2">
+        
+                <!-- /.col-md-4 -->
+        
+              </div>
+         
+</div>
+</body>
+</html>
